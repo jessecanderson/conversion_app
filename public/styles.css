@@ -1,0 +1,67 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    aligh-content: center;
+    background-color: #fff; 
+    color: #000; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: .5em; 
+    margin: 0; 
+}
+
+.container { 
+    padding: 0.5em;
+}
+
+.text-output { 
+    height: 300px;
+    widht: 300px;
+}
+
+.output-area { 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#inpFile { 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    color: #333; 
+    display: inline-block; 
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 20px; 
+    padding: 6px 12px; 
+    text-align: center; 
+}
+
+#btnUpload { 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    color: #333; 
+    cursor: pointer; 
+    display: inline-block; 
+    font-size: 14px; 
+    font-weight: bold; 
+    line-height: 20px; 
+    padding: 6px 12px; 
+    text-align: center; 
+}
+
+#pdfContainer {
+    padding: 0.5em;
+}
+
+#resultText { 
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    color: #333; 
+    cursor: pointer; 
+    padding: 6px 12px; 
+}
