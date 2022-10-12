@@ -64,6 +64,7 @@ const parseFieldData = (fields: any[]) => {
 
   const buildConstants = [];
   for (const field of fields) {
+    console.log(field);
     if (field.T.Name === "link") {
       buildConstants.push("Link found");
     } else if (field.PL !== undefined) {
